@@ -1,4 +1,4 @@
-<html>
+ <html>
 <head>
     <title>Zodiac Application</title>
     <meta charset="UTF-8">
@@ -30,11 +30,14 @@
             <input type="text" id="user-search" class="form-control" placeholder="Type zodiac name ...">
           </div>
           <div class="form-group">
-            <button class="btn btn-danger">Find</button>
+            <button class="btn btn-danger" onclick="getData()">Find</button>
           </div>
         </div>
        <div class="col-md-4">
-         <p>Result will display here</p>
+         <h2 id="name"></h2>
+         <h5 id="date"></h5>
+         <img id="img">
+         <p id="text-result"></p>
        </div>
       </div>
     </div>
